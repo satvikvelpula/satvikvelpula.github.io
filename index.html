@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Satvik Velpula</title>
+
+    <!-- Font Awesome -->
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel = "stylesheet" href = "assets/css/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body> 
+    <!-- Style Switcher -->
+    <input type="radio" name="color" id="color-1"/>
+    <input type="radio" name="color" id="color-2"/>
+    <input type="radio" name="color" id="color-3"/>
+    <input type="radio" name="color" id="color-4"/>
+    <input type="radio" name="color" id="color-5"/>
+    <input type="radio" name="color" id="color-6"/>
+    <input type="radio" name="color" id="color-7"/>
+    <input type="radio" name="color" id="color-8"/>
+    <input type="radio" name="color" id="color-9"/>
+    <input type="radio" name="color" id="color-10"/>
+    <input type="checkbox" id="toggler"/>
+    <input type="checkbox" id="day-night"/> 
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-palette"></i>
+        </label>
+         
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+        </label>
+ 
+        <h3 class="style__switcher-title">Theme Colors</h3>
+        
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class = "header" data-aos="fade-right" data-aos-duration="200">
+        <nav class="nav container">
+            <input type="checkbox" id="nav-toggler">
+            <label for="nav-toggler" class="nav__toggle">
+                <i class = "fa-solid fa-bars"></i>
+            </label>
+
+           <ul class="nav__list">
+            <li class = "nav__item"> 
+                <a href="#home" class="nav__link"><i class = "fa-solid fa-house"></i></a>
+            </li>
+
+            <li class = "nav__item">
+                <a href="#about" class="nav__link"><i class = "fa-solid fa-circle-info"></i></a>
+            </li>
+
+            <li class = "nav__item">
+                <a href="#services" class="nav__link"><i class = "fa-solid fa-bars-progress"></i></a>
+            </li>
+
+            <li class = "nav__item">
+                <a href="#works" class="nav__link"><i class="fa-solid fa-diagram-project"></i></a>
+            </li>
+
+            <li class = "nav__item">
+                <a href="#contact" class="nav__link"><i class="fa-solid fa-id-badge"></i></a>
+            </li>
+
+            <li class = "nav__item">
+                <a href = "fi.html" class = "nav__link">FI</a>
+            </li>
+
+           </ul>
+
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class = "main">
+        <section class = "home" id = "home" data-aos="fade-right" data-aos-duration="200">
+            <div class = "home__container container grid">
+                <div class = "home__content">
+                    <span class="home__small">Hey! I'm</span>
+                    <h1 class = "home__title">
+                        <span>Satvik Velpula</span> <br />
+                        <span class = "multiTextEn"></span>
+                    </h1>
+
+                    <p class = "home__description">
+                        Welcome, explore my portfolio showcasing innovative projects highlighting my passion for software development. 
+                    </p>
+                </div>
+
+                <div class="home__img-wrapper">
+                    <img src = "assets/img/profile.png" alt = "" class = "home__img" />
+                </div>
+            </div>
+        </section>
+        
+        <section class = "about section" id = "about" data-aos="fade-up" data-aos-duration="200">
+            <div class = "about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src = "assets/img/drums.png" alt = "" class = "about__img">
+                </div>
+
+                <div class = "about__content">
+                    <h2 class = "section__title">
+                        <span>My name is Satvik Velpula, and I'm a Software Developer</span>
+                    </h2> 
+                    <p class = "about__description">
+                        Hey there! I'm Satvik Velpula, an 18-year-old enthusiast deeply passionate about programming, software development, and the vast world of computer science. 
+                        Beyond coding, I find joy in music, sports, and hitting the gym. My journey revolves around crafting innovative solutions in the digital realm 
+                        while harmonizing the melodies of life outside the screen. Join me as I blend technology with my diverse interests to create an exciting symphony of creativity and functionality.
+                    </p>
+
+                    <div class="about__bottom">
+                        <a href = "assets/pdf/My Full Developer's CV (23.01.24).pdf" class = "btn" target="_blank">CV <i class="fa-solid fa-up-right-from-square"></i></a>
+
+                        <div class = "about__social-links">
+                            <a href = "https://www.instagram.com/satvioo/" class = "about__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href = "https://github.com/satvikvelpula" class = "about__social-link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href = "https://www.linkedin.com/in/satvik-velpula-98389a276/" class = "about__social-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+
+                            <a href = "https://www.facebook.com/profile.php?id=100073703419456" class = "about__social-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "services section" id = "services" data-aos="fade-up" data-aos-duration="200">
+            <h2 class = "section__title title-center">My Toolkit</h2>
+            <div class = "services__container grid">
+                <img src = "assets/img/python.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/html.svg" alt = "image" class = "services__skills-img">
+                <img src = "assets/img/css.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/js.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/react.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/reactnative.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/unity.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/wordpress.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/sql.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/nodejs.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/express.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/sass.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/tailwindcss.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/figma.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/github.svg" alt="image" class="services__skills-img">
+                <img src = "assets/img/git.svg" alt="image" class="services__skills-img">
+            </div>
+        </section>
+
+        <section class = "works section" id = "works" data-aos="fade-up" data-aos-duration="200">
+            <h2 class = "section__title title-center">
+                My Projects
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src = "assets/img/fitpack.png" alt = "" class = "work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">FitPack <a href = "https://github.com/satvikvelpula/FitPack/blob/master/README.md" target="_blank"><i class = "fa-solid fa-up-right-from-square"></i></a></h3>
+                        <span class="work__description">A Fitness app/website showcase. </span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src = "assets/img/tictactoe.png" alt = "" class = "work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">Tic Tac Toe <a href = "https://github.com/satvikvelpula/tictactoe" target="_blank"><i class = "fa-solid fa-up-right-from-square"></i></a></h3>
+                        <span class="work__description">A simple Python CD based game. </span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src = "assets/img/still.png" alt = "" class = "work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">STILL <a href = "https://github.com/satvikvelpula/MyOwnHorrorGameProject/tree/main" target="_blank"><i class = "fa-solid fa-up-right-from-square"></i></a></h3>
+                        <span class="work__description">My Unity game for a school project. <a href = "https://play.unity.com/mg/other/still-the-campsite" target="_blank"><i class="fa-solid fa-play"></i></a></span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src = "assets/img/variawordpress.png" alt = "" class = "work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">Varia Website <a href = "https://github.com/RedEyeSH/varia_theme/tree/master" target="_blank"><i class = "fa-solid fa-up-right-from-square"></i></a></h3>
+                        <span class="work__description">Replica of our school's website using WordPress. </span>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src = "assets/img/thebackrooms.png" alt = "" class = "work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">The Backrooms <a href = "https://github.com/satvikvelpula/TheBackrooms" target="_blank"><i class = "fa-solid fa-up-right-from-square"></i></a></h3>
+                        <span class="work__description">A CD Based narrative story game. </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "contact section" id = "contact" data-aos="fade-up" data-aos-duration="200">
+            <h2 class = "section__title title-center">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <div>
+                            <span class="contact__data"><i class = "fa-solid fa-phone contact__icon"></i> +358 45 139 3488</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <div>
+                            <span class="contact__data"><i class = "fa-solid fa-envelope contact__icon"></i> satvikvelpula0@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <div>
+                            <span class="contact__data"><i class = "fa-solid fa-location-dot contact__icon"></i> Vantaa, Finland</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form" id="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" name="user_name" placeholder = "Name" class="input__control"/>
+                        </div>
+
+                        <div class="form__input">
+                            <input type="email" name = "user_email" placeholder = "Email" class="input__control"/>
+                        </div>
+                    </div>
+
+                    <div class="form__input">
+                        <input type="text" name = "user_subject" placeholder = "Subject" class="input__control"/>
+                    </div>
+
+                    <div class="form__input">
+                        <textarea name = "user_message" id = "message" placeholder = "Message"cols = "30" rows = "10" class = "input__control textarea"></textarea>
+                    </div>
+
+                    <p class = "contact__message" id = "contact-message"></p>
+
+                    <button type = "submit" class = "btn contact__btn">Send</button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class = "footer">
+        <div class="footer__container container">
+
+            <div class = "footer__social-links">
+                <a href = "https://www.instagram.com/satvioo/" class = "footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href = "https://github.com/satvikvelpula" class = "footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href = "https://www.linkedin.com/in/satvik-velpula-98389a276/" class = "footer__social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href = "https://www.facebook.com/profile.php?id=100073703419456" class = "footer__social-link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src = "assets/js/typed.js"></script>
+
+    <script src = "assets/js/translator.js"></script>
+
+    <script src = "assets/js/email.js"></script>
+
+    <script src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+
+</body>
+</html>
